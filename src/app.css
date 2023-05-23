@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+ 
+ /* very very imp, set display to inline-block */
+.slick-slide img {
+   display: inline-block;
+}
+img{
+    text-align: center;
+    height: 75vh;
+    width: 60vw;
+}
+
+.heading{
+    font-size: 3rem;
+    margin:20px 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+   text-align: center;
+    padding: 0 100px;
+}
+
+/* to set bottom-dot custom css */
+.slick-dots li.slick-active button:before {
+    font-size:1rem;
+    color: gray;
+  }
+
+  /* to-set default arrow custom css */
+  
+  /* .slick-prev:before,
+  .slick-next:before {
+      font-size: 1.5rem;
+    color: black;
+  } */
+  
+  .right-arrow{
+      position: absolute;
+      cursor: pointer;
+      z-index: 10;
+      top:45%;
+      right: 0;
+      font-size: 3rem;
+  }
+
+  .left-arrow{
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    top:45%;
+    left: 0;
+    font-size: 3rem;
+}
